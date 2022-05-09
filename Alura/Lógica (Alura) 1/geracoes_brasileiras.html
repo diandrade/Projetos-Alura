@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function pulaLinha(){
+
+		document.write("<br>");
+	}
+
+	function mostra(conteudo){
+
+		pulaLinha();
+		document.write("Da chegada dos portugueses até hoje, se passam cerca de " + conteudo + " gerações de brasileiros");
+	}
+
+	var idadeMediaQuandoTemFilhos = 28;
+        var anoAtual = 2021; 
+
+        var quantG = (anoAtual - 1500) / idadeMediaQuandoTemFilhos;
+
+	mostra(Math.round(quantG));
+
+
+</script>
